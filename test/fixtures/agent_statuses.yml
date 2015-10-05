@@ -1,0 +1,18 @@
+# == Schema Information
+#
+# Table name: agent_statuses
+#
+#  id          :integer          not null, primary key
+#  status_name :string(255)
+#  created_at  :datetime
+#  updated_at  :datetime
+#  is_online   :boolean          default(FALSE)
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  status_name: MyString
+
+two:
+  status_name: MyString

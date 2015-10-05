@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ftp_directory: MyString
+  name: MyString
+  s3path: MyString
+
+two:
+  ftp_directory: MyString
+  name: MyString
+  s3path: MyString

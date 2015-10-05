@@ -1,0 +1,36 @@
+# == Schema Information
+#
+# Table name: dealer_setups
+#
+#  id            :integer          not null, primary key
+#  dealer_id     :integer
+#  setup_task_id :integer
+#  completed     :boolean          default(FALSE)
+#  user_id       :integer
+#  notes         :text
+#  priority      :integer
+#  completed_at  :datetime
+#  created_at    :datetime
+#  updated_at    :datetime
+#  completed_by  :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  dealer_id: 1
+  setup_task_id: 1
+  completed: false
+  user_id: 1
+  notes: MyText
+  priority: 1
+  completed_at: 2014-04-30 16:49:18
+
+two:
+  dealer_id: 1
+  setup_task_id: 1
+  completed: false
+  user_id: 1
+  notes: MyText
+  priority: 1
+  completed_at: 2014-04-30 16:49:18

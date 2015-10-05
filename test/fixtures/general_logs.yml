@@ -1,0 +1,17 @@
+# == Schema Information
+#
+# Table name: general_logs
+#
+#  id         :integer          not null, primary key
+#  log_data   :text
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  log_data: MyText
+
+two:
+  log_data: MyText

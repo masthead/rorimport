@@ -1,0 +1,17 @@
+# == Schema Information
+#
+# Table name: statuses
+#
+#  id         :integer          not null, primary key
+#  skimming   :boolean
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  skimming: false
+
+two:
+  skimming: false

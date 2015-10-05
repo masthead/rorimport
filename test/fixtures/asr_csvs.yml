@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: asr_csvs
+#
+#  id         :integer          not null, primary key
+#  file_name  :string(255)
+#  s3_url     :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  file_name: MyString
+  s3_url: MyString
+
+two:
+  file_name: MyString
+  s3_url: MyString

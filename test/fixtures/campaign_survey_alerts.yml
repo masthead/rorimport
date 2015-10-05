@@ -1,0 +1,27 @@
+# == Schema Information
+#
+# Table name: campaign_survey_alerts
+#
+#  id          :integer          not null, primary key
+#  campaign_id :integer
+#  employee_id :integer
+#  send_email  :boolean
+#  send_text   :boolean
+#  created_at  :datetime
+#  updated_at  :datetime
+#  is_active   :boolean
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  campaign_id: 1
+  employee_id: 1
+  send_email: false
+  send_text: false
+
+two:
+  campaign_id: 1
+  employee_id: 1
+  send_email: false
+  send_text: false

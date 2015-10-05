@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: call_types
+#
+#  id            :integer          not null, primary key
+#  type_name     :string(255)
+#  default_price :float
+#  created_at    :datetime
+#  updated_at    :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type_name: MyString
+  default_price: 1.5
+
+two:
+  type_name: MyString
+  default_price: 1.5

@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: promotions
+#
+#  id              :integer          not null, primary key
+#  dealer_id       :integer
+#  start_date      :datetime
+#  end_date        :datetime
+#  promotion_title :string(255)
+#  promotion_text  :text
+#  created_at      :datetime
+#  updated_at      :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  dealer_id: 1
+  start_date: 2014-03-25 12:08:07
+  end_date: 2014-03-25 12:08:07
+  promotion_title: MyString
+  promotion_text: MyText
+
+two:
+  dealer_id: 1
+  start_date: 2014-03-25 12:08:07
+  end_date: 2014-03-25 12:08:07
+  promotion_title: MyString
+  promotion_text: MyText

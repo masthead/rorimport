@@ -1,0 +1,28 @@
+# == Schema Information
+#
+# Table name: call_call_queues
+#
+#  id            :integer          not null, primary key
+#  call_id       :integer
+#  call_queue_id :integer
+#  agent_id      :integer
+#  created_at    :datetime
+#  updated_at    :datetime
+#  priority      :integer          default(50)
+#  is_waiting    :boolean          default(TRUE)
+#  is_complete   :boolean          default(FALSE)
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  call_id: 1
+  call_queue_id: 1
+  priority: 1
+  agent_id: 1
+
+two:
+  call_id: 1
+  call_queue_id: 1
+  priority: 1
+  agent_id: 1

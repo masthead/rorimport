@@ -1,0 +1,17 @@
+# == Schema Information
+#
+# Table name: prospect_types
+#
+#  id                 :integer          not null, primary key
+#  prospect_type_name :string(255)
+#  created_at         :datetime
+#  updated_at         :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  prospect_type_name: MyString
+
+two:
+  prospect_type_name: MyString

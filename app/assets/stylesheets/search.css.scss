@@ -1,0 +1,50 @@
+.customer-search-modal-dialog {
+  width: 100% !important;
+  margin: 0px !important;
+  
+  .search-widget {
+    div {
+      margin: 0px !important;
+    }
+  }
+}
+.search-list-container{
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  list-style: none;
+  li{
+    border-bottom: 1px #ccc solid;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+
+#search_drop{
+  min-height: 600px;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  position: relative;
+  form{
+    margin: 0px;
+    .string{
+      margin-bottom: 0px;
+    }
+    select{
+      margin-bottom: 0px;
+      width: 120px;
+    }
+    .check_fields_submission{
+      width: 132px;
+    }
+  }
+  .total-results{
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.back-to-campaign{
+  text-align: right;
+  margin-top: 10px;
+}

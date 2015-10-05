@@ -1,0 +1,30 @@
+# == Schema Information
+#
+# Table name: contents
+#
+#  id         :integer          not null, primary key
+#  created_at :datetime
+#  updated_at :datetime
+#  key        :string(255)
+#  value      :text
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  total_calls_definition: MyText
+  appointment_calls_definition: MyText
+  no_appointment_calls_definition: MyText
+  appointments_set_definition: MyText
+  no_appointment_set_definition: MyText
+  shown_customer_definition: MyText
+  shown_ro_definition: MyText
+
+two:
+  total_calls_definition: MyText
+  appointment_calls_definition: MyText
+  no_appointment_calls_definition: MyText
+  appointments_set_definition: MyText
+  no_appointment_set_definition: MyText
+  shown_customer_definition: MyText
+  shown_ro_definition: MyText

@@ -1,0 +1,31 @@
+# == Schema Information
+#
+# Table name: asr_pro_data
+#
+#  id               :integer          not null, primary key
+#  service_id       :integer
+#  pdf_url          :string(255)
+#  invoke_url       :string(255)
+#  dealer_id        :integer
+#  created_at       :datetime
+#  updated_at       :datetime
+#  service_ronumber :string(255)
+#  asr_dealer_key   :integer
+#  asr_csv_id       :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  service_id: 1
+  service_ronumber: 1
+  pdf_url: MyString
+  invoke_url: MyString
+  dealer_id: 1
+
+two:
+  service_id: 1
+  service_ronumber: 1
+  pdf_url: MyString
+  invoke_url: MyString
+  dealer_id: 1

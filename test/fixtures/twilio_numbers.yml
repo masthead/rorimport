@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: twilio_numbers
+#
+#  id           :integer          not null, primary key
+#  phone_number :string(255)
+#  is_active    :boolean
+#  created_at   :datetime
+#  updated_at   :datetime
+#  redirect_to  :string(255)
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  phone_number: MyString
+  dealer_id: 1
+  is_active: false
+
+two:
+  phone_number: MyString
+  dealer_id: 1
+  is_active: false

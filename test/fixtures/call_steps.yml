@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: call_steps
+#
+#  id             :integer          not null, primary key
+#  call_id        :integer
+#  call_status_id :integer
+#  agent_id       :integer
+#  created_at     :datetime
+#  updated_at     :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  call_id: 1
+  call_status_id: 1
+  agent_id: 1
+
+two:
+  call_id: 1
+  call_status_id: 1
+  agent_id: 1

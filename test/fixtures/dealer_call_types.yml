@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: dealer_call_types
+#
+#  id           :integer          not null, primary key
+#  dealer_id    :integer
+#  call_type_id :integer
+#  price        :float
+#  created_at   :datetime
+#  updated_at   :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  dealer_id: 1
+  call_type_id: 1
+  price: 1.5
+
+two:
+  dealer_id: 1
+  call_type_id: 1
+  price: 1.5

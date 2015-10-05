@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: twilio_voices
+#
+#  id               :integer          not null, primary key
+#  incoming_params  :text
+#  twilio_number_id :integer
+#  created_at       :datetime
+#  updated_at       :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  incoming_params: MyText
+  twilio_number_id: 1
+
+two:
+  incoming_params: MyText
+  twilio_number_id: 1

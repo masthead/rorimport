@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  survey_template_id: 1
+  survey_template_notes: MyText
+  data_source: MyString
+  area_code: MyString
+  dealer_name: MyString
+  customers_stay_in_queue: 1
+  dealer_onboarding_id: 1
+  description: MyText
+  labor_types: MyString
+  customer_criteria: MyText
+  number_attempts: 1
+  voicemail_message: MyText
+  dispositions: MyText
+  status: MyString
+
+two:
+  name: MyString
+  survey_template_id: 1
+  survey_template_notes: MyText
+  data_source: MyString
+  area_code: MyString
+  dealer_name: MyString
+  customers_stay_in_queue: 1
+  dealer_onboarding_id: 1
+  description: MyText
+  labor_types: MyString
+  customer_criteria: MyText
+  number_attempts: 1
+  voicemail_message: MyText
+  dispositions: MyText
+  status: MyString

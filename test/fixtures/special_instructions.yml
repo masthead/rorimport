@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: special_instructions
+#
+#  id                          :integer          not null, primary key
+#  special_instruction_type_id :integer
+#  instruction_text            :text
+#  dealer_id                   :integer
+#  created_at                  :datetime
+#  updated_at                  :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  special_instruction_type_id: 1
+  instruction_text: MyText
+  dealer_id: 1
+
+two:
+  special_instruction_type_id: 1
+  instruction_text: MyText
+  dealer_id: 1

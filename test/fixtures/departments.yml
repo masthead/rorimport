@@ -1,0 +1,24 @@
+# == Schema Information
+#
+# Table name: departments
+#
+#  id                 :integer          not null, primary key
+#  dealer_id          :integer
+#  department_name    :string(255)
+#  phone_number       :string(255)
+#  created_at         :datetime
+#  updated_at         :datetime
+#  hours_of_operation :text
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  dealer_id: 1
+  department_name: MyString
+  phone_number: MyString
+
+two:
+  dealer_id: 1
+  department_name: MyString
+  phone_number: MyString

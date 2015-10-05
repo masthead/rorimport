@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: job_titles
+#
+#  id             :integer          not null, primary key
+#  job_title_name :string(255)
+#  is_active      :boolean
+#  created_at     :datetime
+#  updated_at     :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  job_title: 
+  is_active: false
+
+two:
+  job_title: 
+  is_active: false

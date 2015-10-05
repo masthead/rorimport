@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  newsletter: 
+  sendgrid_webhook_id: 1
+  email: MyString
+  timestamp: MyString
+  smtp_id: MyString
+  event: MyString
+  url: MyString
+  userid: MyString
+  template: MyString
+
+two:
+  newsletter: 
+  sendgrid_webhook_id: 1
+  email: MyString
+  timestamp: MyString
+  smtp_id: MyString
+  event: MyString
+  url: MyString
+  userid: MyString
+  template: MyString

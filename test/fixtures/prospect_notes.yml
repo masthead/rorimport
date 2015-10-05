@@ -1,0 +1,21 @@
+# == Schema Information
+#
+# Table name: prospect_notes
+#
+#  id          :integer          not null, primary key
+#  prospect_id :integer
+#  notes       :text
+#  created_at  :datetime
+#  updated_at  :datetime
+#  user_id     :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  prospect_id: 1
+  notes: MyText
+
+two:
+  prospect_id: 1
+  notes: MyText

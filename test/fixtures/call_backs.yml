@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: call_backs
+#
+#  id                   :integer          not null, primary key
+#  campaign_customer_id :integer
+#  callback_at          :datetime
+#  notes                :text
+#  user_id              :integer
+#  completed_at         :datetime
+#  created_at           :datetime
+#  updated_at           :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  campaign_customer_id: 1
+  callback_at: 2014-07-24 13:34:39
+  notes: MyText
+  user_id: 1
+  completed_at: 2014-07-24 13:34:39
+
+two:
+  campaign_customer_id: 1
+  callback_at: 2014-07-24 13:34:39
+  notes: MyText
+  user_id: 1
+  completed_at: 2014-07-24 13:34:39

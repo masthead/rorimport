@@ -1,0 +1,17 @@
+# == Schema Information
+#
+# Table name: invalid_emails
+#
+#  id            :integer          not null, primary key
+#  email_address :string(255)
+#  created_at    :datetime
+#  updated_at    :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  email_address: MyString
+
+two:
+  email_address: MyString

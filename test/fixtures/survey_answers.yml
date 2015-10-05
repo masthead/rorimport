@@ -1,0 +1,21 @@
+# == Schema Information
+#
+# Table name: survey_answers
+#
+#  id                          :integer          not null, primary key
+#  survey_template_question_id :integer
+#  survey_answer               :text
+#  created_at                  :datetime
+#  updated_at                  :datetime
+#  survey_id                   :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  survey_question_id: 
+  survey_answer: MyText
+
+two:
+  survey_question_id: 
+  survey_answer: MyText

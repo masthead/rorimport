@@ -1,0 +1,299 @@
+.page-header .phone-number {
+    font-size: 30pt;
+    line-height: 30pt;
+}
+
+#main div.row div.span4 h3 {
+    background-color: white !important;
+}
+
+#main div.row div.span4:nth-child(odd)
+{
+    background-color: #F7F7F9;
+    min-height: 200px;
+}
+
+#main ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#main ul li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    overflow: auto;
+}
+
+#main ul .detail .label {
+    margin-right: 5px;
+}
+
+#main ul .detail .short-number {
+    font-weight: bold;
+}
+
+#main ul .detail .message {
+    clear: both;
+    padding-top: 5px;
+}
+
+#main ul .details {
+    float: left;
+}
+
+#sms_messages .message {
+    clear: both;
+    padding-top: 5px;
+}
+
+#incoming_calls li .actions {
+    float: right;
+}
+
+#incoming_calls li .actions a {
+    margin: 5px;
+}
+
+#search_form {
+	position: absolute;
+	background: #FFFFFF;
+	top: 70px;
+	left: 175px;
+	border-radius: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#error_modal, #sql_query {
+    /*position: absolute;*/
+    width: 300px;
+    height: 60%;
+    background-color: #ffffff;
+}
+
+#error_modal .modal-body,
+#sql_query .modal-body {
+    width: 300px !important;
+}
+
+#sql_query .modal-body {
+    overflow-y: auto;
+    height: 60%;
+}
+
+
+#new-disposition-modal,
+#new-category-modal {
+    width: 400px;
+    /*height: 30%;*/
+    height: 45%;
+    top: 25%;
+    background-color: #ffffff;
+}
+
+#reset-dispositions-modal {
+    width: 400px;
+    height: 25%;
+    top: 25%;
+    background-color: #ffffff;
+
+}
+
+#new-campaign-group-modal {
+    width: 400px;
+    height: 35%;
+    top: 25%;
+    background-color: #ffffff;    
+}
+
+#conversation-reply-modal {
+    width: 65%;
+    height: 65%;
+    top: 10%;
+    background-color: #ffffff;
+}
+
+#new-disposition-modal label,
+#new-category-modal label,
+#reset-dispositions-modal label
+#new-campaign-group-modal label,
+#new-category-modal label,
+#reset-dispositions-modal label,
+#conversation-reply-modal label {
+    margin: 2px 20px;
+}
+
+#campaign_start_date,
+#campaign_end_date,
+#campaign_campaign_type_id,
+#campaign_survey_template_id,
+#campaign_twilio_number_id {
+    width: 138px;
+}
+
+#campaign_customer_expiration_days,
+#campaign_max_attempts,
+#campaign_priority,
+#campaign_marketing_exclusion_days {
+    width: 50px;
+}
+
+.campaign-attributes {
+    margin-top: 15px;
+}
+
+.recurring-type, .recurring-days {
+    margin-left: 0px !important;
+}
+
+.recurring-days .recurring-day {
+    float: left;
+    margin-right: 15px;
+}
+
+.recurring-day label {
+    margin-left: 16px;
+    margin-top: 3px;
+}
+
+#save_campaign {
+    margin-top: 20px;
+}
+
+button.run-campaign {
+    margin-top: 5px;
+}
+
+.campaign-categories,
+.campaign-dispositions {
+    display: block;
+    margin: 2px 18px;
+}
+
+.campaign_voice_mails_attempt_number {
+    width: 38px;
+}
+
+input.attempt {
+    padding-right: 0px;
+}
+
+.voice-mail-message {
+    margin-bottom: 20px;
+    border: 1px solid #80c641;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.remove-voice-mail-message {
+    color: #d9534f;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.down-voice-mail-message,
+.up-voice-mail-message {
+    color: #46b8da;
+    font-size: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.max-attempts-count {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.max-attempts-count .fa-plus {
+    color: #80c641;
+    font-size: 21px;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+
+.max-attempts-count b{
+    color: #46b8da;
+}
+
+.news-list{min-height: 100px;}
+
+.callqueues ul{list-style-type: none;}
+
+.body-scrollable {
+    max-height: 450px; 
+    overflow-y: scroll;
+}
+
+#dataTable_dealers_paginate, #dataTable_users_paginate {
+    display: none;
+}
+
+.page-title-breadcrumb {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.55);
+    -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.05), 0 0px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.05), 0 0px 0 rgba(0, 0, 0, 0.05);
+    height: 70px;
+}
+
+.page-title-breadcrumb .page-header {
+    margin: 0;
+    padding: 0;
+    border-bottom: 0;
+}
+
+.page-title-breadcrumb .page-header .page-title {
+    font-size: 25px;
+    font-weight: 300;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.page-title-breadcrumb .page-header .page-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    color: #bcbcbc;
+    display: inline-block;
+}
+
+.page-title-breadcrumb .breadcrumb {
+    float: right;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    background: transparent;
+    padding-top: 17px;
+    margin-left: 10px;
+}
+
+.page-title-breadcrumb .breadcrumb li + li:before {
+    content: "";
+    padding: 0;
+}
+
+.page-title-breadcrumb .charts-inline {
+    padding-top: 4px;
+    list-style: none;
+}
+
+.page-title-breadcrumb .charts-inline .chart-title {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.page-title-breadcrumb .charts-inline .sparkbar {
+    font-size: 25px;
+    vertical-align: bottom;
+}
+
+.page-title-breadcrumb .charts-inline .sparkbar canvas {
+    vertical-align: baseline !important;
+}
+
+.page-title-breadcrumb .view-code-wrapper {
+    margin-top: 14px;
+}
+

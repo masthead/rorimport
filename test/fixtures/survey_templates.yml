@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: survey_templates
+#
+#  id                   :integer          not null, primary key
+#  survey_template_name :string(255)
+#  is_active            :boolean
+#  created_at           :datetime
+#  updated_at           :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  survey_template_name: 
+  is_active: false
+
+two:
+  survey_template_name: 
+  is_active: false

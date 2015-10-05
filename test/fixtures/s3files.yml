@@ -1,0 +1,24 @@
+# == Schema Information
+#
+# Table name: s3files
+#
+#  id         :integer          not null, primary key
+#  name       :string(255)
+#  status     :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#  size       :integer
+#  file_type  :string(255)
+#  total_rows :integer          default(0)
+#  new_rows   :integer          default(0)
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  status: MyString
+
+two:
+  name: MyString
+  status: MyString

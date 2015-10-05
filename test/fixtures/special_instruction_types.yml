@@ -1,0 +1,17 @@
+# == Schema Information
+#
+# Table name: special_instruction_types
+#
+#  id         :integer          not null, primary key
+#  type_name  :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type_name: MyString
+
+two:
+  type_name: MyString

@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: test_call_sends
+#
+#  id              :integer          not null, primary key
+#  email_addresses :text
+#  user_id         :integer
+#  created_at      :datetime
+#  updated_at      :datetime
+#  send_url        :string(255)
+#  token           :string(255)
+#  test_call_array :text
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  email_addresses: MyText
+  user_id: 1
+
+two:
+  email_addresses: MyText
+  user_id: 1

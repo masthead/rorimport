@@ -1,0 +1,83 @@
+<!-- <div class="modal fade"> -->
+	<div class='modal-dialog customer-search-modal-dialog'>
+		<div class='modal-content'>
+			<div class='modal-header'>
+				<h4 class='modal-title'>
+					Customer Search
+				</h4>
+			</div>
+			<div class='modal-body'>
+				<div class="row">
+					<div class="col-md-12 search-widget">
+						<div class="col-md-3">
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" ng-model="customer.name" ng-change="name_keydown()" placeholder="customer name" class="form-control input-sm" />
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="text" ng-model="customer.email" ng-change="email_keydown()"  placeholder="customer email" class="form-control input-sm" />
+							</div>
+							<div class="form-group">
+								<label for="phone">Phone</label>
+								<input type="text" ng-model="customer.phone" ng-change="phone_keydown()" placeholder="customer phone" class="form-control input-sm" />
+							</div>
+							<div class="form-group">
+								<label for="Address">Address</label>
+								<input type="text" ng-model="customer.address" ng-change="address_keydown()"  placeholder="customer address" class="form-control input-sm" />
+							</div>
+							<div class="form-group">
+								<label for="vin">Vin</label>
+								<input type="text" ng-model="customer.vin" ng-change="vin_keydown()"  placeholder="customer vin" class="form-control input-sm" />
+							</div>
+							<div class="form-group">
+								<br/>
+								<button class="btn btn-success btn-mini">Search</button>								
+							</div>
+						</div>
+						<div class="col-md-9">
+							<table class="table table-bordered table-striped table-hover data-table dataTable">
+								<thead>
+					  	  			<tr role="row">
+					  	  				<th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending" style="width: 105px;">
+					  	  	  				Name
+					  	  	  			</th>
+										<th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending" style="width: 140px;">
+					  	  	  				Address
+					  	  	  			</th>
+					  	  	  			<th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending" style="width: 165px;">
+					  	  	  				Email
+					  	  	  			</th>
+					  	  	  			<th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending" style="width: 80px;">
+					  	  	  				Phone
+					  	  	  			</th>  
+					  	  	  			<th class="ui-state-default" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending" style="width: 40px;">
+					  	  	  			</th>
+					  	  			</tr>
+								</thead>
+								<tbody>
+									<tr class="gradeA odd" ng-repeat="customer in customers">
+										<td class=" sorting_1">{{customer.first_name}} {{customer.last_name}} </td>
+										<td class=" ">{{customer.address_1}}</td>
+										<td class=" ">{{customer.email_address_1}}</td>
+										<td class="center">{{customer.home_phone}}</td>
+										<td class="center"><button class="btn btn-primary btn-mini" ng-click="customer_select($index)">Select</button></td>
+									</tr>    	  	  
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<button ng-click="go_new_cutomer()" class="btn btn-primary btn-mini pull-right">Create new customer</button>
+				</div>
+			</div>	
+			<div class='modal-footer'>
+		        <button class='btn ptn-primary' ng-click='okay();'>
+		            Close
+		        </button>
+	    	</div>
+	    </div>
+	</div>
+<!-- </div> -->

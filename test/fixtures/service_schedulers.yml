@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: service_schedulers
+#
+#  id             :integer          not null, primary key
+#  scheduler_name :string(255)
+#  login_url      :text
+#  created_at     :datetime
+#  updated_at     :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  scheduler_name: MyString
+  login_url: MyText
+
+two:
+  scheduler_name: MyString
+  login_url: MyText

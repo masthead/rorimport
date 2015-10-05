@@ -1,0 +1,25 @@
+# == Schema Information
+#
+# Table name: survey_template_question_options
+#
+#  id                          :integer          not null, primary key
+#  survey_template_question_id :integer
+#  question_option             :string(255)
+#  question_option_order       :integer
+#  created_at                  :datetime
+#  updated_at                  :datetime
+#  send_survey                 :boolean
+#  is_active                   :boolean
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: {}
+# column: value
+#
+two: {}
+#  column: value

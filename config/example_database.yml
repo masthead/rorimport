@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: imports_dev
+  pool: 200
+  host: localhost
+  username: postgres
+  password: password
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: imports_test
+  pool: 200
+  host: localhost
+  username: postgres
+  password: password

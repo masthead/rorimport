@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  timestamp: MyString
+  smtp_id: MyString
+  event: MyString
+  category: MyString
+  url: MyString
+  userid: MyString
+  template: MyString
+  from: MyString
+  to: MyString
+  subject: MyString
+  email_type: 1
+  newsletter:
+
+two:
+  email: MyString
+  timestamp: MyString
+  smtp_id: MyString
+  event: MyString
+  category: MyString
+  url: MyString
+  userid: MyString
+  template: MyString
+  from: MyString
+  to: MyString
+  subject: MyString
+  email_type: 1
+  newsletter:

@@ -1,0 +1,49 @@
+# == Schema Information
+#
+# Table name: appointments
+#
+#  id                     :integer          not null, primary key
+#  created_at             :datetime
+#  updated_at             :datetime
+#  customer_id            :integer
+#  employee_name          :string(255)
+#  customer_name          :string(255)
+#  loop_created           :datetime
+#  loop_created_by        :string(255)
+#  appointment_datetime   :datetime
+#  first_name             :string(255)
+#  last_name              :string(255)
+#  dealer_id              :integer
+#  vin                    :string(255)
+#  customer_email         :string(255)
+#  customer_text          :text
+#  service_advisor        :string(255)
+#  appointment_status     :string(255)
+#  vehicle_year           :string(255)
+#  vehicle_make           :string(255)
+#  vehicle_model          :string(255)
+#  sub_category           :string(255)
+#  source                 :string(255)
+#  s3file_id              :integer
+#  dms_appointment_number :string(255)
+#  dms_customer_number    :string(255)
+#  event_id               :integer
+#  appointment_type       :string(255)
+#  is_shown               :boolean
+#  user_id                :integer
+#  prospect_id            :integer
+#  call_report_processed  :boolean          default(FALSE)
+#  sent_notification      :boolean          default(FALSE)
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: {}
+# column: value
+#
+two: {}
+#  column: value

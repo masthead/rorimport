@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: voice_mails
+#
+#  id                :integer          not null, primary key
+#  campaign_id       :integer
+#  attempt_number    :integer
+#  voicemail_message :text
+#  created_at        :datetime
+#  updated_at        :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  campaign_id: 1
+  attempt_number: 1
+  voicemail_message: MyText
+
+two:
+  campaign_id: 1
+  attempt_number: 1
+  voicemail_message: MyText

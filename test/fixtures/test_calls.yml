@@ -1,0 +1,47 @@
+# == Schema Information
+#
+# Table name: test_calls
+#
+#  id                           :integer          not null, primary key
+#  dealer_id                    :integer
+#  call_datetime                :datetime
+#  twilio_sid                   :string(255)
+#  recording_url                :string(255)
+#  created_at                   :datetime
+#  updated_at                   :datetime
+#  from_number                  :string(255)
+#  to_number                    :string(255)
+#  duration                     :integer
+#  number_of_rings_points       :integer          default(0)
+#  greeting_rating              :string(255)
+#  greeting_points              :integer          default(0)
+#  service_needs_points         :integer          default(0)
+#  confirm_service_needs_points :integer          default(0)
+#  customer_name_used           :string(255)
+#  total_score                  :integer          default(0)
+#  call_success_level           :string(255)
+#  number_of_rings              :integer
+#  identify_service_needs       :boolean
+#  request_appointment          :boolean
+#  verify_customer_info         :boolean
+#  confirm_service_needs        :boolean
+#  verify_customer_info_points  :integer          default(0)
+#  request_appointment_points   :integer          default(0)
+#  notes                        :text
+#  confirm_email_address        :boolean          default(FALSE)
+#  confirm_email_points         :integer          default(0)
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  dealer_id: 1
+  call_datetime: 2013-12-18 16:45:24
+  twilio_sid: MyString
+  recording_url: MyString
+
+two:
+  dealer_id: 1
+  call_datetime: 2013-12-18 16:45:24
+  twilio_sid: MyString
+  recording_url: MyString

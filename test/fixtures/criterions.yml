@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: criterions
+#
+#  id          :integer          not null, primary key
+#  campaign_id :integer
+#  query       :string(255)
+#  params      :text
+#  total       :integer
+#  created_at  :datetime
+#  updated_at  :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  campaign_id: 
+  query: MyString
+  params: MyText
+  total: 1
+
+two:
+  campaign_id: 
+  query: MyString
+  params: MyText
+  total: 1

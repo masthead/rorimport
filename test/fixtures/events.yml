@@ -1,0 +1,33 @@
+# == Schema Information
+#
+# Table name: events
+#
+#  id                  :integer          not null, primary key
+#  event_type_id       :integer
+#  event_timestamp     :datetime
+#  customer_id         :integer
+#  dealer_id           :integer
+#  transaction_amount  :decimal(, )
+#  vehicle_id          :integer
+#  created_at          :datetime
+#  updated_at          :datetime
+#  customer_vehicle_id :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  event_type_id: 1
+  event_timestamp: 2013-12-06 15:41:36
+  customer_id: 1
+  dealer_id: 1
+  transaction_amount: 9.99
+  vehicle_id: 1
+
+two:
+  event_type_id: 1
+  event_timestamp: 2013-12-06 15:41:36
+  customer_id: 1
+  dealer_id: 1
+  transaction_amount: 9.99
+  vehicle_id: 1

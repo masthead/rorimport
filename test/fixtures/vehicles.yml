@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: vehicles
+#
+#  id         :integer          not null, primary key
+#  vin        :string(255)
+#  vyear      :string(255)
+#  vmake      :string(255)
+#  vmodel     :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  vin: MyString
+  vyear: MyString
+  vmake: MyString
+  vmodel: MyString
+
+two:
+  vin: MyString
+  vyear: MyString
+  vmake: MyString
+  vmodel: MyString

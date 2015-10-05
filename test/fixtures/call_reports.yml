@@ -1,0 +1,28 @@
+# == Schema Information
+#
+# Table name: call_reports
+#
+#  id                 :integer          not null, primary key
+#  appointment_id     :integer
+#  customer_id        :integer
+#  call_record_id     :integer
+#  dealer_id          :integer
+#  service_id         :integer
+#  contacted_at       :datetime
+#  contact_type       :string(255)
+#  service_date       :datetime
+#  call_status        :string(255)
+#  appointment_source :string(255)
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: {}
+# column: value
+#
+two: {}
+#  column: value

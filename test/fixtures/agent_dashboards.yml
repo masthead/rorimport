@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  is_current: false
+  outbound_campaigns: 1
+  inbound_campaigns: 1
+  outbound_calls: 1
+  calls_waiting: 1
+  calls_waitin_color_status: MyString
+  longest_hold_time: 1
+  total_calls: 1
+  average_hold_time: 1
+  calls_greater_than_5: 1
+  idle_agents: 1
+  online_agents: 1
+  online_agents_color_status: MyString
+  agents_on_calls: 1
+  idle_agents_color_status: MyString
+
+two:
+  is_current: false
+  outbound_campaigns: 1
+  inbound_campaigns: 1
+  outbound_calls: 1
+  calls_waiting: 1
+  calls_waitin_color_status: MyString
+  longest_hold_time: 1
+  total_calls: 1
+  average_hold_time: 1
+  calls_greater_than_5: 1
+  idle_agents: 1
+  online_agents: 1
+  online_agents_color_status: MyString
+  agents_on_calls: 1
+  idle_agents_color_status: MyString

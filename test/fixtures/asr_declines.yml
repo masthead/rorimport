@@ -1,0 +1,24 @@
+# == Schema Information
+#
+# Table name: asr_declines
+#
+#  id                      :integer          not null, primary key
+#  asr_pro_data_id         :integer
+#  recommendation          :text
+#  recommendation_priority :string(255)
+#  created_at              :datetime
+#  updated_at              :datetime
+#  price                   :float            default(0.0)
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  asr_pro_data_id: 1
+  recommendation: MyText
+  recommendation_priority: MyString
+
+two:
+  asr_pro_data_id: 1
+  recommendation: MyText
+  recommendation_priority: MyString

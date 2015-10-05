@@ -1,0 +1,19 @@
+defaults: &defaults
+  AMAZON_ACCESS_KEY: awskey
+  AMAZON_SECRET_KEY: awskey
+  S3_BUCKET_INBOUND: inbound_files
+  S3_BUCKET_ARCHIVE: archive_files
+  S3_BUCKET_ORIGINAL: original_files
+  S3_ACCESS_KEY_ID: awskey
+  S3_SECRET_ACCESS_KEY: awskey
+  ACOM_FTP_USER: password
+  ACOM_FTP_PASS: password
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
